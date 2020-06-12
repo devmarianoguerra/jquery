@@ -1,36 +1,4 @@
 $(document).ready(function () {
-  const resultado = $("#resultado p");
-  $(".btn-primary").click(function () {
-    resultado.hide();
-  });
-
-  $(".btn-danger").click(function () {
-    resultado.removeClass("display-4");
-  });
-
-  $("btn-warning").click(function () {
-    resultado.toggleClass("display-4");
-  });
-
-  $("#formulario").submit(function (e) {
-    e.preventDefault();
-    const nombre = $("#nombre").val();
-    console.log(nombre);
-  });
-
-  const parrafo = $("#resultado p");
-  $(".btn-primary").click(function () {
-    parrafo.addClass("display-4");
-  });
-
-  $(".btn-danger").click(function () {
-    parrafo.removeClass("display-4");
-  });
-
-  $("btn-warning").click(function () {
-    parrafo.toggleClass("display-4");
-  });
-
   $("h1").html("Etiqueta h1");
   //document.querySelector('h1').innerHTML = 'Etiqueta h1'. <- Vanilla JS
   $(".display-4").html("desde clase");

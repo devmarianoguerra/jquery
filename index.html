@@ -12,8 +12,42 @@
     <title>JQuery</title>
   </head>
   <body>
-    <div class="contenido">
-      <h1>Lorem ipsum dolor sit amet.</h1>
+    <div class="container mt-4" id="contenido">
+      <form id="formulario">
+        <input
+          type="text"
+          placeholder="ingresa tu nombre"
+          class="form-control"
+          name="nombre"
+          id="nombre"
+        />
+        <button class="btn btn-info mt-3" type="submit">Enviar</button>
+      </form>
+    </div>
+
+    <div class="container" id="contenido">
+      <button class="btn btn-primary">Agregar</button>
+      <button class="btn btn-danger">Quitar</button>
+      <button class="btn btn-warning">Toogle</button>
+    </div>
+
+    <div class="container my-5" id="contenido">
+      <button class="btn btn-primary">Agregar</button>
+      <button class="btn btn-danger">Quitar</button>
+      <button class="btn btn-warning">Toogle</button>
+      <div class="bg-dark text-white mt-3" id="resultado">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab repellat
+          commodi illo excepturi magnam vero iure deserunt modi obcaecati
+          provident, alias nulla pariatur. Consequuntur, nostrum.
+        </p>
+      </div>
+    </div>
+
+    <div class="container my-5" id="contenido">
+      <h1 class="display-4" id="main_title">Lorem ipsum dolor sit amet.</h1>
+      <h1 id="color_azul">Lorem, ipsum dolor.</h1>
+      <img src="" alt="" />
     </div>
 
     <script
